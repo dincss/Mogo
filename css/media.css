@@ -1,0 +1,112 @@
+﻿/*************************/
+/**********media*********/
+/*************************/
+
+@media screen and (max-width: 1200px) {
+
+	.landsape .iphones img {
+		margin: 0 auto;
+	}
+	.landsape .iphones img:last-child {
+		left: 100px;
+	}
+	.blog .blog_inner h2 {
+		font-size: 20px;
+		bottom: 200px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	.bord h1 {
+		font-size: 30px;
+		margin-top: 30px;
+	}
+	.bord p {
+		margin-bottom: 30px;
+	}
+	.landsape .iphones img {
+		margin: 0 auto;
+	}
+	.landsape .iphones img:last-child {
+		left: 50px;
+	}
+	.blog .blog_inner h2 {
+		font-size: 15px;
+		bottom: 250px;
+		padding: 10px;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.bord h1 {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	.bord p {
+		margin-bottom: 30px;
+	}
+	.landsape .iphones img {
+		margin: 0 auto;
+	}
+	.landsape .iphones img:last-child {
+		left: 50px;
+	}
+	.what_we_do .left_pic img {
+		margin-bottom: 50px;
+	}
+	.blog .blog_inner h2 {
+		font-size: 10px;
+		bottom: 300px;
+		padding: 10px;
+	}
+}
+@media screen and (max-width: 480px) {
+
+}
+
+@media (max-width: 1100px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+    header ul li:hover {
+	background: #F7C988;
+}
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+
+
+
